@@ -1,0 +1,120 @@
+.signin-container {
+    background-color: #151515;
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    padding-top: 2.8em;
+    padding-bottom: 5em;
+  }
+  .signin-content {
+    text-align: center;
+    /* padding-top: 9.375em; */
+    display: flex;
+    flex-flow: column;
+    /* width: 26.125em; */
+    width: 418px;
+    padding-top: 3.375em;
+  }
+  .signin-label {
+    margin-bottom: 2.5em;
+  }
+  .signin-mobile-label {
+    font-size: 0.7em;
+    color: #aaa;
+    float: left;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .signin-mobile-input input {
+    width: 100%;
+    height: 50px;
+    font-size: 1.1em;
+    letter-spacing: -0.12px;
+    color: #fff;
+    background: #151515;
+    border: none;
+    border-bottom: 0.5px solid white;
+    padding: 0;
+    width: 82%;
+  }
+  .signin-mobile-num-grp {
+    width: 100%;
+    display: flex;
+  }
+  .signin-mobile-prepend {
+    border-bottom: 0.5px solid white;
+    padding-right: 5px;
+    height: 50px;
+    min-width: 15.5%;
+    line-height: 3;
+  }
+  .signin-mobile-input input:focus-visible {
+    outline: none;
+  }
+  
+  .signin-mobile-input input::-webkit-outer-spin-button,
+  .signin-mobile-input input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .signin-mobile-input input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  .or {
+    font-size: 0.7em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    color: #aaa;
+    margin: 1.875em 0;
+    margin: 2.5em 0;
+    font-weight: normal;
+  }
+  .signin-already-registered {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.33px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: underline;
+    text-underline-position: under;
+    cursor: pointer;
+  }
+  .activate-signin-btn {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .activate-signin-btn:disabled {
+    background: rgb(54, 54, 54);
+    color: #969696;
+    border: none;
+  }
+  .signin-check {
+    padding-right: 5px;
+  }
+  
+  .signin-terms-cond {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .signin-consent {
+    display: flex;
+    flex-flow: wrap;
+    margin-left: 6%;
+    line-height: 18px;
+  }
+  .signin-consent a {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  

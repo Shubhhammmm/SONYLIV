@@ -1,0 +1,39 @@
+.sub-sub-card {
+    width: calc(100vw * 0.3) !important;
+    height: calc(100vw * 0.3) !important;
+  }
+  .sub-sub-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .sub-sub-card-img {
+    border-radius: 10px;
+  }
+  .sub-sub-card-heading {
+    position: relative;
+    top: 86px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .sub-sub-card-heading-title {
+    font-size: 28px;
+    text-align: start;
+  }
+  .sub-sub-card-heading-subtitle {
+    color: #fff;
+    font-size: 12px;
+    white-space: initial;
+    display: block;
+    min-height: 45px;
+  }
+  .sub-sub-card-heading-amount {
+    font-size: 36px;
+  }
+  .sub-sub-card-heading-duration {
+    font-size: 12px;
+    margin-top: 1em;
+    font-weight: bold;
+  }
+  

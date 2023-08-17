@@ -1,0 +1,78 @@
+.mySwiper.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .mySwiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.8375em;
+  }
+  
+  .mySwiper .swiper-button-next,
+  .mySwiper .swiper-button-prev {
+    display: none;
+    color: transparent;
+  }
+  
+  .mySwiper .swiper-button-next:after,
+  .mySwiper .swiper-button-prev:after {
+    content: "" !important;
+  }
+  
+  .listing-label {
+    margin-top: 18px;
+    color: #fff;
+    width: 100%;
+    display: inline-block;
+    text-align: start;
+  }
+  
+  @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .listing-label,
+    .mySwiper {
+      margin-left: 0.9375em !important;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .listing-label,
+    .mySwiper {
+      margin-left: 1.25em !important;
+    }
+  }
+  @media screen and (min-width: 1201px) {
+    .mySwiper:hover .swiper-button-next,
+    .mySwiper:hover .swiper-button-prev {
+      display: flex !important;
+      height: 100%;
+      width: 40px;
+      top: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      background-repeat: no-repeat;
+      background-position: center;
+      color: #f7f7f7 !important;
+    }
+    .mySwiper:hover .swiper-button-next {
+      right: 0;
+    }
+    .mySwiper:hover .swiper-button-prev {
+      left: 0;
+    }
+    .mySwiper .swiper-button-next {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='33' height='32'%3e%3cpath d='M2.5 16h28m-14-14l14 14-14 14' fill='none' stroke='%23FFF' stroke-linecap='round' stroke-linejoin='round' stroke-width='4'/%3e%3c/svg%3e");
+    }
+    .mySwiper .swiper-button-prev {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='33' height='32'%3e%3cpath d='M30.5 16h-28m14-14l-14 14 14 14' fill='none' stroke='%23FFF' stroke-linecap='round' stroke-linejoin='round' stroke-width='4'/%3e%3c/svg%3e");
+    }
+  }
+  .movie-big-banner {
+    padding: 2.75em;
+  }
+  .movie-big-banner img {
+    min-height: 150px;
+    object-fit: fill;
+    width: 100%;
+  }
+  

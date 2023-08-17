@@ -1,0 +1,68 @@
+.myCarouselSwiper {
+    height: 90vh;
+  }
+  .myCarouselSwiper img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .myCarouselSwiper .swiper-pagination {
+    right: 0 !important;
+    left: auto !important;
+    /* width: fit-content !important; */
+  }
+  
+  .myCarouselSwiper span.swiper-pagination-bullet {
+    width: 20px;
+    border-radius: 30px;
+    height: 4px;
+    background-color: white;
+    opacity: 0.25;
+  }
+  .myCarouselSwiper
+    span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: white !important;
+    width: 35px;
+    opacity: 1 !important;
+  }
+  
+  .myCarouselSwiper .swiper-button-next,
+  .myCarouselSwiper .swiper-button-prev {
+    display: none;
+    color: transparent;
+  }
+  
+  .myCarouselSwiper .swiper-button-next:after,
+  .myCarouselSwiper .swiper-button-prev:after {
+    content: "" !important;
+  }
+  @media screen and (min-width: 1201px) {
+    .myCarouselSwiper:hover .swiper-button-next,
+    .myCarouselSwiper:hover .swiper-button-prev {
+      display: flex !important;
+      height: 100%;
+      width: 40px;
+      top: 20px;
+      background-color: rgba(0, 0, 0, 0);
+      background-repeat: no-repeat;
+      background-position: center;
+      color: #f7f7f7 !important;
+    }
+    .myCarouselSwiper:hover .swiper-button-next {
+      right: 0;
+    }
+    .myCarouselSwiper:hover .swiper-button-prev {
+      left: 0;
+    }
+    .myCarouselSwiper .swiper-button-next {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='33' height='32'%3e%3cpath d='M2.5 16h28m-14-14l14 14-14 14' fill='none' stroke='%23FFF' stroke-linecap='round' stroke-linejoin='round' stroke-width='4'/%3e%3c/svg%3e");
+    }
+    .myCarouselSwiper .swiper-button-prev {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='33' height='32'%3e%3cpath d='M30.5 16h-28m14-14l-14 14 14 14' fill='none' stroke='%23FFF' stroke-linecap='round' stroke-linejoin='round' stroke-width='4'/%3e%3c/svg%3e");
+    }
+  }
+  .play-now-controls {
+    position: absolute;
+    bottom: 5px;
+  }
+  
